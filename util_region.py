@@ -70,6 +70,15 @@ class GetMap:
         return map_cord
 
 
+def convert_region_dict(region_name):
+    if not region_name:
+        return False
+    if not isinstance(region_name, str):
+        return region_name
+
+    mymap = GetMap(region_name).map_dict
+    region = {"longitude": mymap['lon'], "latitude": mymap['lat']}
+    
 if __name__ == '__main__':
 
     mymap = GetMap("愛知県").map_dict
