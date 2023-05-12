@@ -1,2 +1,53 @@
 # util_bot
 Helper methods for bot
+
+/my_project
+    /my_project
+        __init__.py
+        /browser_helpers
+            __init__.py
+            browser_setup.py
+            browser_operations.py
+        /database_helpers
+            __init__.py
+            spreadsheet.py
+            dynamodb.py
+        /site_specific
+            __init__.py
+            login.py
+            profile_setup.py
+            messaging.py
+        /other_helpers
+            __init__.py
+            email.py
+            s3.py
+            logging.py
+        /analysis
+            __init__.py
+            user_data_analysis.py
+        /language_model
+            __init__.py
+            reply_creation.py
+    /tests
+        /browser_helpers
+            test_browser_setup.py
+            test_browser_operations.py
+        /database_helpers
+            test_spreadsheet.py
+            test_dynamodb.py
+        /site_specific
+            test_login.py
+            test_profile_setup.py
+            test_messaging.py
+        /other_helpers
+            test_email.py
+            test_s3.py
+            test_logging.py
+        /analysis
+            test_user_data_analysis.py
+        /language_model
+            test_reply_creation.py
+    setup.py
+    README.md
+    .gitignore
+
